@@ -1,8 +1,24 @@
 aid: medical-intelligence-co
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/medical-intelligence-co.png
 name: MEDICAL INTELLIGENCE CO
-description: MEDICAL INTELLIGENCE CO is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Medicarri (operated by Medical Intelligence Co) is a B2B healthtech marketplace based in Riyadh,
+  Saudi Arabia that connects clinics and healthcare facilities with medical suppliers, letting buyers
+  source medical supplies and equipment from many vendors in one place. The company was selected for
+  Batch 4 of the Sanabil 500 MENA Seed Accelerator Program run by 500 Global and Sanabil Investments.
+  As of this profile Medicarri operates a customer-facing e-commerce web application at medicarri.com
+  and does not publish a public developer API, OpenAPI specification, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/medical-intelligence-co/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthtech
+- Medical Supplies
+- Marketplace
+- B2B
+- E-Commerce
+- Procurement
+- Saudi Arabia
+- MENA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +48,10 @@ maintainers:
 common:
 - type: Website
   url: https://medicarri.com
+- type: DomainSecurity
+  url: security/medical-intelligence-co-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
